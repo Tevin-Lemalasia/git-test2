@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/index.css">
+<link rel="shortcut icon" href="images/logo.png">
+<!----css-->
+<style>
+    .icons {
+        margin: 30px;
+        display: table;
+        margin-left: 0px;
+        text-decoration: none;
+    }
+    
+    .icons h5 {
+        margin-left: 30px;
+    }
+    
+    .innner-icons ul {
+        display: table-cell;
+        vertical-align: middle;
+        margin-left: 0px;
+    }
+    
+    .links {
+        padding-left: 800px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: white;
+    }
+    
+    .links li {
+        display: inline;
+        margin-left: 15px;
+        font-weight: bold;
+        font-size: larger;
+        width: 100%;
+    }
+      
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+    
+    html {
+      box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+      
+    }
+    
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color:orange;
+      color: white;
+      margin-top: 30px;
+    }
+    
+    .container {
+      padding: 0 16px;
+    }
+    
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .title {
+      color: black;
+    }
+    
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: black;
+      background-color: orange;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .button:hover {
+      background-color: #555;
+    }
+    
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+</style>
+</head>
+
+<body>
+    <!-----header-->
+    <div class="header">
+      <img src="images/logo.png" style="max-width:100px" style="margin-top: 5px;" align="right">
+      <h1>RainBow Resort</h1>
+      <div class="links">
+          <ul>
+            <li> <a class="active" href="index.html" style="text-decoration: none;">Home</a> </li>
+            <li> <a href="book.php" style="text-decoration: none;">Book Now</a> </li>
+            <li> <a href="offers/offers.php"style="text-decoration: none;">Offers</a> </li>
+            <li> <a href="contact.php" style="text-decoration: none;">contact us</a> </li>
+            <li> <a href="about.html" style="text-decoration: none;">about us</a> </li>
+
+          </ul>
+      </div>
+  </div> 
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Rainbow resort is a seren,beautiful escape and we hope to serve you to the best of our capabilities.Our customers Profile are diverse.Some Brands
+
+specialty products, we market today are among
+
+some of the quality products we imported for our
+
+deddicated Customers From Product sourcing
+
+to Product specialization ,Products purchasing $ Supply
+
+Services is Constantly Upgrading and acquiring new Skills to Ensure
+
+We can Serve Our customers Better.
+
+Our management Personel underwent a Series of Practicle Trainnings Which
+
+Include Travelling technical trainning and Obtained Several certification</p>
+  <p>Here are our founders and managing directors.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/pelusharaz.JPG" alt="Jeremiah Pelu" style="width:30%" align="left">
+      <div class="container">
+        <h2>Pelu Jeremiah</h2>
+        <p class="title">CEO & Founder</p>
+        <p>The ceo.</p>
+        <p>pelujeremiah@gmail.com</p>
+        <p><button class="button"><a href="mailto:pelunguta@gmail.com" style="text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/admin.jpg" alt="Victor Mugambi" style="width:40%;" align="left">
+      <div class="container">
+        <h2>Mugambi Victor</h2>
+        <p class="title">Managing director</p>
+        <p>Organizer of all that happens in the hotel.</p>
+        <p>Victormugambi@gmail.com</p>
+        <p><button class="button"><a href="mailto:victormmugambi@gmail.com"style="text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/admin3.jpg" alt="Tevin Lemalasia" style="width:25%;" align="left">
+      <div class="container">
+        <h2>Tevin Lemalasia</h2> 
+        <p class="title">Event Organizer</p>
+        <p>handles all events held at the Hotel.</p>
+        <p>lemalasiatevin@gmail.com</p>
+        <p><button class="button"><a href="mailto:lemalasia@gmail.com" style="text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card">
+      <img src="images/admin1.jpg" alt="Janet" style="width:25%;" align="left">
+      <div class="container">
+        <h2>Janet</h2>
+        <p class="title">Interior Designer</p>
+        <p>Designed hotel interior,Handles renovations and any changers done with the design and maintenance of the hotel.</p>
+        <p>janet@gmail.com</p>
+        <p><button class="button"><a href="mailto:jannet@gmail.com" style="text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/admin2.jpg" alt="Thuo Iris" style="width:40%;" align="left">
+      <div class="container">
+        <h2>Iris Thuo</h2>
+        <p class="title">Marketer</p>
+        <p>Handles hotel marketing and outreach.</p>
+        <p>iristhuo@gmail.com</p>
+        <p><button class="button"><a href="mailto:theeiristhuo@gmail.com" style="text-decoration: none;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+
+  <!--footer--->
+<div class="footer">
+    <div class="services">
+        <h5>Services</h5>
+        <p>We offer the best Supplies</p>
+        <p>services world wide</p>
+        <p><a href="admin/includes/login.html"style="text-decoration:none;"style="color:Black;">Admin</a></p>
+
+    </div>
+    <div class="About">
+        <h5>About</h5>
+        <p>Our customers Profile are diverse.Some Brands</p>
+        <P>specialty products, we market today are among</P>  
+        <P>some of the quality products we imported for our</P> 
+        <p>deddicated Customers From Product sourcing</p>
+        <p>to Product specialization ,Products purchasing $ Supply</p>
+        <p>Services is Constantly Upgrading and acquiring new Skills to Ensure</p>    
+        <p>We can Serve Our customers Better.</p>   
+        <p>Our management Personel underwent a Series of Practicle Trainnings Which</p>
+        <p> Include Travelling technical trainning and Obtained Several certification</p>
+
+    </div>
+    <div class="icons">
+        <div class="inner-icons">
+            <h5>Follow us on</h5>
+            <ul type="none">
+            <li><a target="_blank" href="https://www.instagram.com/shelbye_company/"style="text-decoration: none;" ><img src="images/instagram2.png" style="max-width:30px;"></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/Shelbyeltd/"><img src="images/facebooklogo.png" style="max-width: 30px;"></a></li>
+            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=254718144940&fbclid=IwAR3E1XUF1-S_W4dfZzCXZJCNkYci20cyki-9lV1bTbKmEl9ew9mpEkDbezc"><img src="images/whatsapp.png" style="max-width: 30px;"></a></li>
+            </ul>
+
+        </div>
+       
+    </div>
+    <div class="contactus">
+        <h5>Contact us</h5>
+        <ul type="none" >
+            <li><a target="_blank" href="mailto:info@gmail.com"><img src="images/Gmail new Logo 2020.jpg" style="max-width: 30px;"></a></li>
+            <li><a target="_blank" href="tel:+254791386752"><img src="images/phone.jpg" style="max-width: 30px;"></a></li> 
+                
+            </ul>
+        <img src="images/logo.png"style="max-width:100px">
+    </div>
+    </div>
+    <div class="copyrights">
+        <p>Copyright &copy; 2021 RainBow Resort. All Rights Reserved.</p>
+    </div>
+</div>
+</body>
+
+</html>
